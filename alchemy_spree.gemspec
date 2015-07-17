@@ -15,6 +15,4 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Alchemy::Spree::VERSION
 
-  gem.add_dependency('alchemy_cms', ['~> 3.1'])
-  gem.add_dependency('spree', ['>= 3.0', '< 4.0'])
 end
